@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.container_main{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.first_container{
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+}
+.fondo{
+    width: 100%;
+    height: 80%;
+    position: fixed;
+}
+.navegacion{
+    display: flex;
+    background-color:  #2e69cf ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 16vh;
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    width: 80vw;
+}
+.barra p{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.navegacion_consult{
+    margin-top: 2.5vh;
+    border-radius: 2vw;
+    width: 14vw;
+    height: 6vh;
+    font-size: 2rem;
+}
+.form_consult{
+    margin-top: 8vh;
+    margin-left: 5vw;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2vh;
+    width: 30vw;
+    height: 68vh;
+    position: fixed;
+    background-color: white;
+    border-radius: 2vw;
+}
+.titulito{
+    margin-top: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 5.5vh;
+    font-size: 2.5rem;
+}
+.please_enter{
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: -8vh;
+}
+.formulario{
+    margin-top: -2vh;
+    font-size: 1.1rem;
+    margin-left: 2vw;
+    text-align: justify;
+}
+.formulario select{
+    width: 92%;
+    height: 4vh;
+}
+.formulario input{
+    width: 90.5%;
+    height: 3vh;
+}
+.formulario button{
+    width: 9vw;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 0.8vw;
+    background-color: rgb(65, 115, 252);
+    height: 5vh;
+    margin-left: 30%;
+    margin-top: 3vh;
+}
+.texto_first_container{
+    width: 30vw;
+    margin-top: 40vh;
+    margin-left: 40vw;
+}
